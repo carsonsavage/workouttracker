@@ -1,7 +1,6 @@
 {
   "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +15,7 @@
     "mongo": "^0.1.0",
     "mongoose": "^5.11.13",
     "morgan": "^1.9.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
