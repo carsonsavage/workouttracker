@@ -1,19 +1,21 @@
 {
-  "name": "workouttracker",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carsonsavage/workouttracker.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/carsonsavage/workouttracker/issues"
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.11.13",
+    "morgan": "^1.9.1"
   },
-  "homepage": "https://github.com/carsonsavage/workouttracker#readme"
+  "devDependencies": {},
+  "description": ""
 }
